@@ -28,7 +28,7 @@ if os.environ.get('READTHEDOCS') == 'True':
     install_requires = list(filter(lambda x: x != 'av', install_requires))
 
 setuptools.setup(
-    name='aiortc',
+    name='aiortc-custom',
     version='0.9.18',
     description='An implementation of WebRTC and ORTC',
     long_description=long_description,
